@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генеалогическое древо рода Сущих</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function searchFamily() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let members = document.getElementsByClassName('family-member');
+            for (let i = 0; i < members.length; i++) {
+                let name = members[i].innerText.toLowerCase();
+                if (name.includes(input)) {
+                    members[i].style.display = "block";
+                } else {
+                    members[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Генеалогическое древо рода Сущих</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Описание Рода</h2>
+            <p>Добро пожаловать на сайт генеалогического древа рода Сущих. Здесь вы найдете информацию о наших предках, их жизни и достижениях.</p>
+        </section>
+
+        <section class="search">
+            <h3>Поиск родственников</h3>
+            <input type="text" id="searchInput" onkeyup="searchFamily()" placeholder="Введите имя...">
+        </section>
+
+        <section class="family-tree">
+            <h3>Наши Родственники:</h3>
+            <div class="family-list">
+               <a href="sushikh_kuzma.html" class="family-member">Сущих Кузьма (Косма) Андреевич 1874 - 1938</a>
+<a href="sushikh_pelageya.html" class="family-member">Сущих Пелагея И 1882 - 1942</a>
+<a href="sushikh_andrey.html" class="family-member">Сущих Андрей Кузьмич 1886 - 1959</a>
+<a href="sushikh_yakov.html" class="family-member">Сущих Яков Кузьмич 1892 - 1963</a>
+<a href="avtomenko_dmitry.html" class="family-member">Автоменко Дмитрий Николаевич</a>
+<a href="avtomenko_lidiya.html" class="family-member">Автоменко Лидия Дмитриевна</a>
+<a href="agafonova_anna.html" class="family-member">Агафонова Анна Геннадьевна</a>
+<a href="barsukov_alexander.html" class="family-member">Барсуков Александр</a>
+<a href="barsukov_svyatoslav.html" class="family-member">Барсуков Святослав Александрович</a>
+<a href="bondareva_domna.html" class="family-member">Бондарева (Таран) Домна Антоновна</a>
+<a href="bondareva_valentina.html" class="family-member">Бондарева Валентина Петровна</a>
+<a href="bondareva_vera.html" class="family-member">Бондарева Вера Петровна</a>
+<a href="bondareva_galina.html" class="family-member">Бондарева Галина Петровна</a>
+<a href="bondareva_nadezhda.html" class="family-member">Бондарева Надежда Петровна</a>
+<a href="bondarev_anatoly.html" class="family-member">Бондарев Анатолий Петрович</a>
+<a href="bondarev_petr.html" class="family-member">Бондарев Петр Иванович</a>
+<a href="gonulenko_alefitina.html" class="family-member">Гонуленко Алефтина Николаевна</a>
+<a href="gonulenko_vasiliy.html" class="family-member">Гонуленко Василий Никитич</a>
+<a href="gonulenko_irina.html" class="family-member">Гонуленко Ирина Юрьевна</a>
+<a href="gonulenko_natalya.html" class="family-member">Гонуленко Наталья Васильевна</a>
+<a href="guseva_nina.html" class="family-member">Гусева Нина</a>
+<a href="efimov_ivan.html" class="family-member">Ефимов Иван</a>
+<a href="efimova_galina.html" class="family-member">Ефимова Галина Ивановна</a>
+<a href="efimova_nadezhda.html" class="family-member">Ефимова (Сущих) Надежда Яковлевна</a>
+<a href="zelentsov_alexander.html" class="family-member">Зеленцов Александр Владимирович</a>
+<a href="zelentsov_vladimir.html" class="family-member">Зеленцов Владимир Николаевич</a>
+<a href="zelentsov_mikhail.html" class="family-member">Зеленцов Михаил Владимирович</a>
+<a href="zelentsov_sergey.html" class="family-member">Зеленцов Сергей Александрович</a>
+<a href="zelentsova_zinaida.html" class="family-member">Зеленцова (Сущих) Зинаида Яковлевна</a>
+<a href="zelentsova_galina.html" class="family-member">Зеленцова Галина Ивановна</a>
+<a href="zelentsova_irina_aleksandrovna.html" class="family-member">Зеленцова Ирина Александровна</a>
+<a href="zelentsova_irina.html" class="family-member">Зеленцова Ирина Александровна</a>
+<a href="zelentsova_valeriya.html" class="family-member">Зеленцова Валерия Сергеевна</a>
+<a href="ilnitsky_sergey.html" class="family-member">Ильницкий Сергей Васильевич</a>
+<a href="keifman_sofiya.html" class="family-member">Кейфман Софья Яковлевна</a>
+<a href="karimov_yan.html" class="family-member">Каримов Ян</a>
+<a href="karimova_salima.html" class="family-member">Каримова Салима</a>
+<a href="kovalevich_vladimir.html" class="family-member">Ковалевич Владимир</a>
+<a href="kovalevich_serafima.html" class="family-member">Ковалевич Серафима Петровна</a>
+<a href="kornienkov_oleg.html" class="family-member">Корниенков Олег</a>
+<a href="kornienkov_roman.html" class="family-member">Корниенков Роман Олегович</a>
+<a href="kuzin_andrey.html" class="family-member">Кузин Андрей Николаевич</a>
+<a href="kuzin_nikolay.html" class="family-member">Кузин Николай</a>
+<a href="kuzina_olga.html" class="family-member">Кузина (Сущих) Ольга Яковлевна</a>
+<a href="kuzmina_olga.html" class="family-member">Кузьмина Ольга Эдуардовна</a>
+<a href="lomovtseva_mariya.html" class="family-member">Ломовцева (Сущих) Мария Андреевна</a>
+<a href="medvedeva_irina.html" class="family-member">Медведева Ирина</a>
+<a href="peremitina_aleksandra.html" class="family-member">Перемитина (Сущих) Александра (тетя Шура) Кузминична</a>
+<a href="peremitina_matrona.html" class="family-member">Перемитина Матрона (тетя Мотя) Кузминична</a>
+<a href="peremitin_anatoly.html" class="family-member">Перемитин Анатолий</a>
+<a href="peremitin_boris.html" class="family-member">Перемитин Борис Александрович</a>
+<a href="petrov_vladimir.html" class="family-member">Петров Владимир</a>
+<a href="petrov_vitaliy.html" class="family-member">Петров Виталий Владимирович</a>
+<a href="petrova_aleksandra.html" class="family-member">Петрова Александра</a>
+<a href="petrova_alisa.html" class="family-member">Петрова Алиса Витальевна</a>
+<a href="popova_nina.html" class="family-member">Попова (Сущих) Нина Яковлевна</a>
+<a href="przhitulskaya_galina.html" class="family-member">Пржитульская Галина Владимировна</a>
+<a href="przhitulsky_anton.html" class="family-member">Пржитульский Антон Сергеевич</a>
+<a href="przhitulsky_kubas.html" class="family-member">Пржитульский Кубас Станиславович</a>
+<a href="przhitulsky_sergey.html" class="family-member">Пржитульский Сергей Владимирович</a>
+<a href="przhitulsky_stanislav.html" class="family-member">Пржитульский Станислав Сергеевич</a>
+<a href="razuvaev_aleksey.html" class="family-member">Разуваев Алексей Иванович</a>
+<a href="razuvaev_andrey.html" class="family-member">Разуваев Андрей Алексеевич</a>
+<a href="razuvaev_egor.html" class="family-member">Разуваев Егор Андреевич</a>
+<a href="razuvaev_ivan.html" class="family-member">Разуваев Иван Харламович</a>
+<a href="razuvaev_pavel.html" class="family-member">Разуваев Павел Андреевич</a>
+<a href="razuvaeva_lyubov.html" class="family-member">Разуваева Любовь Ивановна</a>
+<a href="razuvaeva_tatyana.html" class="family-member">Разуваева Татьяна</a>
+<a href="severgin_valeriy.html" class="family-member">Севергин Валерий Петрович</a>
+<a href="severgin_petr.html" class="family-member">Севергин Петр</a>
+<a href="severgina_natalya.html" class="family-member">Севергина (Сущих) Наталья Яковлевна</a>
+<a href="svistova_galina.html" class="family-member">Свистова Галина Валентиновна</a>
+<a href="svistova_tatyana.html" class="family-member">Свистова (Сущих) Татьяна Яковлевна</a>
+<a href="svistov_valentin.html" class="family-member">Свистов Валентин Владимирович</a>
+<a href="sushikh_mariya.html" class="family-member">Сущих (Козякова) Мария</a>
+<a href="sushikh_natalya.html" class="family-member">Сущих (Таран) Наталья Антоновна</a>
+<a href="sushikh_antonina.html" class="family-member">Сущих (Улитина) Антонина Николаевна</a>
+<a href="sushikh_tamara.html" class="family-member">Сущих (Шумская) Тамара Георгиевна</a>
+<a href="sushikh_alexey.html" class="family-member">Сущих Алексей Дмитриевич</a>
+<a href="sushikh_alexander_a.html" class="family-member">Сущих Александр Андреевич</a>
+<a href="sushikh_alexander_l.html" class="family-member">Сущих Александр Львович</a>
+<a href="sushikh_anastasia.html" class="family-member">Сущих Анастасия</a>
+<a href="sushikh_viktor.html" class="family-member">Сущих Виктор Андреевич</a>
+<a href="sushikh_vladislava.html" class="family-member">Сущих Владислава Сергеевна</a>
+<a href="sushikh_vladimir.html" class="family-member">Сущих Владимир Иванович</a>
+<a href="sushikh_vera.html" class="family-member">Сущих Вера Андреевна</a>
+<a href="sushikh_georgiy.html" class="family-member">Сущих Георгий Андреевич</a>
+<a href="sushikh_galina.html" class="family-member">Сущих Галина Ивановна</a>
+<a href="sushikh_glafira.html" class="family-member">Сущих Глафира Кузьминична</a>
+<a href="sushikh_grigoriy_a.html" class="family-member">Сущих Григорий Александрович</a>
+<a href="sushikh_grigoriy_d.html" class="family-member">Сущих Григорий Дмитриевич</a>
+<a href="sushikh_dmitry.html" class="family-member">Сущих Дмитрий Кузмич 1897 - 1965</a>
+<a href="sushikh_egor.html" class="family-member">Сущих Егор Яковлевич</a>
+<a href="sushikh_zoya.html" class="family-member">Сущих Зоя Андреевна</a>
+<a href="sushikh_ivan_a.html" class="family-member">Сущих Иван Андреевич</a>
+<a href="sushikh_ivan_d.html" class="family-member">Сущих Иван Дмитриевич</a>
+<a href="sushikh_iveta.html" class="family-member">Сущих Ивета Александровна</a>
+<a href="sushikh_ilya.html" class="family-member">Сущих Илья Яковлевич</a>
+<a href="sushikh_konstantin.html" class="family-member">Сущих Константин Яковлевич</a>
+<a href="sushikh_klavdiya.html" class="family-member">Сущих Клавдия Андреевна</a>
+<a href="sushikh_kuzma.html" class="family-member">Сущих Кузьма (Косма) Андреевич</a>
+<a href="sushikh_larisa.html" class="family-member">Сущих Лариса Леонтьевна</a>
+<a href="sushikh_leontiy.html" class="family-member">Сущих Леонтий Яковлевич</a>
+<a href="sushikh_lidiya.html" class="family-member">Сущих Лидия Михайловна</a>
+<a href="sushikh_liliya.html" class="family-member">Сущих Лилия Александровна</a>
+<a href="sushikh_mikhail.html" class="family-member">Сущих Михаил Андреевич</a>
+<a href="sushikh_nikolay.html" class="family-member">Сущих Николай Андреевич</a>
+<a href="sushikh_pavel.html" class="family-member">Сущих Павел Ильич</a>
+<a href="sushikh_raisa.html" class="family-member">Сущих Раиса Александровна</a>
+<a href="sushikh_svetlana.html" class="family-member">Сущих Светлана Алексеевна</a>
+<a href="sushikh_sofiya.html" class="family-member">Сущих Софья Дмитриевна</a>
+<a href="sushikh_taisiya.html" class="family-member">Сущих Таисия Александровна</a>
+<a href="sushikh_yuriy.html" class="family-member">Сущих Юрий Сергеевич</a>
+<a href="sushikh_yana.html" class="family-member">Сущих Яна Ивановна</a>
+<a href="sushikh_elya.html" class="family-member">Сущих Эля Ивановна</a>
+<a href="taran_anton.html" class="family-member">Таран Антон Харитонович</a>
+<a href="taran_ulyana.html" class="family-member">Таран Ульяна</a>
+<a href="taran_khariton.html" class="family-member">Таран Харитон</a>
+<a href="tkachev_alexander.html" class="family-member">Ткачев Александр Михайлович</a>
+<a href="tkachev_maxim.html" class="family-member">Ткачев Максим Александрович</a>
+<a href="tkacheva_natalya.html" class="family-member">Ткачева (Величко) Наталья Александровна</a>
+<a href="tsybulsky_alexander.html" class="family-member">Цыбульский Александр</a>
+<a href="shavrostova_irina.html" class="family-member">Шавростова Ирина Викторовна</a>
+<a href="shakhvorostov_boris.html" class="family-member">Шахворостов Борис Павлович</a>
+<a href="shakhvorostov_viktor.html" class="family-member">Шахворостов Виктор Борисович</a>
+<a href="shakhvorostov_genadiy.html" class="family-member">Шахворостов Генадий Борисович</a>
+<a href="shakhvorostov_nikolay.html" class="family-member">Шахворостов Николай Павлович</a>
+<a href="shakhvorostov_yuriy.html" class="family-member">Шахворостов Юрий Викторович</a>
+<a href="shiyanova_feodosiya.html" class="family-member">Шиянова Феодосия Ксенофонтовна</a>
+<a href="stroganov_ivan.html" class="family-member">Строганов Иван Петрович</a>
+<a href="strygin_georgiy.html" class="family-member">Стрыгин Георгий Юрьевич</a>
+<a href="strygin_ivan.html" class="family-member">Стрыгин Иван Григорьевич</a>
+<a href="velichko_alexander.html" class="family-member">Величко Александр Михайлович</a>
+<a href="velichko_igor.html" class="family-member">Величко Игорь Александрович</a>
+<a href="velichko_ilya.html" class="family-member">Величко Илья Игоревич</a>
+<a href="velichko_nonna.html" class="family-member">Величко (Сущих) Нонна Ивановна</a>
+<a href="velichko_margarita.html" class="family-member">Величко Маргарита Игоревна</a>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Генеалогическое древо рода Сущих</p>
+    </footer>
+</body>
+</html>
